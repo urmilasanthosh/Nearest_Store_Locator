@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B243460A1F87587900B4FFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24346091F87587900B4FFC2 /* AppDelegate.swift */; };
+		B243460C1F87587900B4FFC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243460B1F87587900B4FFC2 /* ViewController.swift */; };
+		B243460F1F87587900B4FFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B243460D1F87587900B4FFC2 /* Main.storyboard */; };
+		B24346111F87587900B4FFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24346101F87587900B4FFC2 /* Assets.xcassets */; };
+		B24346141F87587900B4FFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24346121F87587900B4FFC2 /* LaunchScreen.storyboard */; };
+		B243461F1F87587900B4FFC2 /* Location_NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243461E1F87587900B4FFC2 /* Location_NotificationTests.swift */; };
+		B243462A1F87587900B4FFC2 /* Location_NotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24346291F87587900B4FFC2 /* Location_NotificationUITests.swift */; };
+		C99CD5DFF0CA9E80D6311F8B /* libPods-Location Notification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A251CF8F22F57162F26E95 /* libPods-Location Notification.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B243461B1F87587900B4FFC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24345FE1F87587900B4FFC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24346051F87587900B4FFC2;
+			remoteInfo = "Location Notification";
+		};
+		B24346261F87587900B4FFC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24345FE1F87587900B4FFC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24346051F87587900B4FFC2;
+			remoteInfo = "Location Notification";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23A251CF8F22F57162F26E95 /* libPods-Location Notification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Location Notification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80830143B91777EC0A93C7CA /* Pods-Location Notification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location Notification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Location Notification/Pods-Location Notification.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6A65AB234736E27B99C896 /* Pods-Location Notification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location Notification.release.xcconfig"; path = "Pods/Target Support Files/Pods-Location Notification/Pods-Location Notification.release.xcconfig"; sourceTree = "<group>"; };
+		B24346061F87587900B4FFC2 /* Location Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Notification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24346091F87587900B4FFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B243460B1F87587900B4FFC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B243460E1F87587900B4FFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B24346101F87587900B4FFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B24346131F87587900B4FFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B24346151F87587900B4FFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B243461A1F87587900B4FFC2 /* Location NotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location NotificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B243461E1F87587900B4FFC2 /* Location_NotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_NotificationTests.swift; sourceTree = "<group>"; };
+		B24346201F87587900B4FFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24346251F87587900B4FFC2 /* Location NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location NotificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24346291F87587900B4FFC2 /* Location_NotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_NotificationUITests.swift; sourceTree = "<group>"; };
+		B243462B1F87587900B4FFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B24346031F87587900B4FFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99CD5DFF0CA9E80D6311F8B /* libPods-Location Notification.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24346171F87587900B4FFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24346221F87587900B4FFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2286EA7EE78F000826F3F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23A251CF8F22F57162F26E95 /* libPods-Location Notification.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B24345FD1F87587900B4FFC2 = {
+			isa = PBXGroup;
+			children = (
+				B24346081F87587900B4FFC2 /* Location Notification */,
+				B243461D1F87587900B4FFC2 /* Location NotificationTests */,
+				B24346281F87587900B4FFC2 /* Location NotificationUITests */,
+				B24346071F87587900B4FFC2 /* Products */,
+				CDCADADFAB1C610F0EE93566 /* Pods */,
+				A2286EA7EE78F000826F3F29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B24346071F87587900B4FFC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B24346061F87587900B4FFC2 /* Location Notification.app */,
+				B243461A1F87587900B4FFC2 /* Location NotificationTests.xctest */,
+				B24346251F87587900B4FFC2 /* Location NotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24346081F87587900B4FFC2 /* Location Notification */ = {
+			isa = PBXGroup;
+			children = (
+				B24346091F87587900B4FFC2 /* AppDelegate.swift */,
+				B243460B1F87587900B4FFC2 /* ViewController.swift */,
+				B243460D1F87587900B4FFC2 /* Main.storyboard */,
+				B24346101F87587900B4FFC2 /* Assets.xcassets */,
+				B24346121F87587900B4FFC2 /* LaunchScreen.storyboard */,
+				B24346151F87587900B4FFC2 /* Info.plist */,
+			);
+			path = "Location Notification";
+			sourceTree = "<group>";
+		};
+		B243461D1F87587900B4FFC2 /* Location NotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B243461E1F87587900B4FFC2 /* Location_NotificationTests.swift */,
+				B24346201F87587900B4FFC2 /* Info.plist */,
+			);
+			path = "Location NotificationTests";
+			sourceTree = "<group>";
+		};
+		B24346281F87587900B4FFC2 /* Location NotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B24346291F87587900B4FFC2 /* Location_NotificationUITests.swift */,
+				B243462B1F87587900B4FFC2 /* Info.plist */,
+			);
+			path = "Location NotificationUITests";
+			sourceTree = "<group>";
+		};
+		CDCADADFAB1C610F0EE93566 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80830143B91777EC0A93C7CA /* Pods-Location Notification.debug.xcconfig */,
+				AA6A65AB234736E27B99C896 /* Pods-Location Notification.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24346051F87587900B4FFC2 /* Location Notification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B243462E1F87587900B4FFC2 /* Build configuration list for PBXNativeTarget "Location Notification" */;
+			buildPhases = (
+				1245B20DC9BE1C24FEFC85D3 /* [CP] Check Pods Manifest.lock */,
+				B24346021F87587900B4FFC2 /* Sources */,
+				B24346031F87587900B4FFC2 /* Frameworks */,
+				B24346041F87587900B4FFC2 /* Resources */,
+				A818A9AC92FD777A4E1B2FD1 /* [CP] Embed Pods Frameworks */,
+				18841FD7F1F8ACDE2CA1681F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Location Notification";
+			productName = "Location Notification";
+			productReference = B24346061F87587900B4FFC2 /* Location Notification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B24346191F87587900B4FFC2 /* Location NotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24346311F87587900B4FFC2 /* Build configuration list for PBXNativeTarget "Location NotificationTests" */;
+			buildPhases = (
+				B24346161F87587900B4FFC2 /* Sources */,
+				B24346171F87587900B4FFC2 /* Frameworks */,
+				B24346181F87587900B4FFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B243461C1F87587900B4FFC2 /* PBXTargetDependency */,
+			);
+			name = "Location NotificationTests";
+			productName = "Location NotificationTests";
+			productReference = B243461A1F87587900B4FFC2 /* Location NotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B24346241F87587900B4FFC2 /* Location NotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24346341F87587900B4FFC2 /* Build configuration list for PBXNativeTarget "Location NotificationUITests" */;
+			buildPhases = (
+				B24346211F87587900B4FFC2 /* Sources */,
+				B24346221F87587900B4FFC2 /* Frameworks */,
+				B24346231F87587900B4FFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24346271F87587900B4FFC2 /* PBXTargetDependency */,
+			);
+			name = "Location NotificationUITests";
+			productName = "Location NotificationUITests";
+			productReference = B24346251F87587900B4FFC2 /* Location NotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B24345FE1F87587900B4FFC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Urmila;
+				TargetAttributes = {
+					B24346051F87587900B4FFC2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					B24346191F87587900B4FFC2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B24346051F87587900B4FFC2;
+					};
+					B24346241F87587900B4FFC2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B24346051F87587900B4FFC2;
+					};
+				};
+			};
+			buildConfigurationList = B24346011F87587900B4FFC2 /* Build configuration list for PBXProject "Location Notification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B24345FD1F87587900B4FFC2;
+			productRefGroup = B24346071F87587900B4FFC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B24346051F87587900B4FFC2 /* Location Notification */,
+				B24346191F87587900B4FFC2 /* Location NotificationTests */,
+				B24346241F87587900B4FFC2 /* Location NotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B24346041F87587900B4FFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24346141F87587900B4FFC2 /* LaunchScreen.storyboard in Resources */,
+				B24346111F87587900B4FFC2 /* Assets.xcassets in Resources */,
+				B243460F1F87587900B4FFC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24346181F87587900B4FFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24346231F87587900B4FFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1245B20DC9BE1C24FEFC85D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Location Notification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18841FD7F1F8ACDE2CA1681F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Location Notification/Pods-Location Notification-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Location Notification/Pods-Location Notification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A818A9AC92FD777A4E1B2FD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Location Notification/Pods-Location Notification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B24346021F87587900B4FFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B243460C1F87587900B4FFC2 /* ViewController.swift in Sources */,
+				B243460A1F87587900B4FFC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24346161F87587900B4FFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B243461F1F87587900B4FFC2 /* Location_NotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24346211F87587900B4FFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B243462A1F87587900B4FFC2 /* Location_NotificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B243461C1F87587900B4FFC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24346051F87587900B4FFC2 /* Location Notification */;
+			targetProxy = B243461B1F87587900B4FFC2 /* PBXContainerItemProxy */;
+		};
+		B24346271F87587900B4FFC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24346051F87587900B4FFC2 /* Location Notification */;
+			targetProxy = B24346261F87587900B4FFC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B243460D1F87587900B4FFC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B243460E1F87587900B4FFC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B24346121F87587900B4FFC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24346131F87587900B4FFC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B243462C1F87587900B4FFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B243462D1F87587900B4FFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B243462F1F87587900B4FFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80830143B91777EC0A93C7CA /* Pods-Location Notification.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Location Notification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.Swiftweather.Location-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B24346301F87587900B4FFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6A65AB234736E27B99C896 /* Pods-Location Notification.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Location Notification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.Swiftweather.Location-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B24346321F87587900B4FFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Location NotificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.Swiftweather.Location-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Location Notification.app/Location Notification";
+			};
+			name = Debug;
+		};
+		B24346331F87587900B4FFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Location NotificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.Swiftweather.Location-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Location Notification.app/Location Notification";
+			};
+			name = Release;
+		};
+		B24346351F87587900B4FFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Location NotificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.Swiftweather.Location-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Location Notification";
+			};
+			name = Debug;
+		};
+		B24346361F87587900B4FFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Location NotificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.Swiftweather.Location-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Location Notification";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B24346011F87587900B4FFC2 /* Build configuration list for PBXProject "Location Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B243462C1F87587900B4FFC2 /* Debug */,
+				B243462D1F87587900B4FFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B243462E1F87587900B4FFC2 /* Build configuration list for PBXNativeTarget "Location Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B243462F1F87587900B4FFC2 /* Debug */,
+				B24346301F87587900B4FFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B24346311F87587900B4FFC2 /* Build configuration list for PBXNativeTarget "Location NotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24346321F87587900B4FFC2 /* Debug */,
+				B24346331F87587900B4FFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B24346341F87587900B4FFC2 /* Build configuration list for PBXNativeTarget "Location NotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24346351F87587900B4FFC2 /* Debug */,
+				B24346361F87587900B4FFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B24345FE1F87587900B4FFC2 /* Project object */;
+}
